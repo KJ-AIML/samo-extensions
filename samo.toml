@@ -1,0 +1,8 @@
+# Notes for Samo's own release in the catalog. Its version comes from the app inside the zip.
+
+min_macos = "11.0"
+whats_new = """
+- The extension store: browse, install, update and uninstall extensions, every one signed
+- Settings → Updates: Samo updates itself with one click, and keeps the old app in the Trash
+- Opening Samo from the menu bar no longer freezes
+"""

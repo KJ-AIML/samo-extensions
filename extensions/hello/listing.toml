@@ -1,0 +1,20 @@
+# The store's own fields for Hello. Its id, name, version, summary, min_samo and "What it changes" come from the
+# package's extension.toml.
+
+author = "KJ-AIML"
+categories = ["example"]
+homepage = "https://github.com/KJ-AIML/samo/tree/main/extensions/hello"
+description = """
+Samo's example extension, for anyone writing their own. It shows every widget an extension can draw, keeps a badge in the menu bar, and can pop up a note.
+
+- Figures, meters and lamps, including how Samo draws an unknown value
+- A switch and a button that talk to its helper
+- A pop-up and a badge, within Samo's limits
+
+It changes nothing outside its own folder.
+"""
+whats_new = "Now in Samo's store."
+
+[[screenshots]]
+file = "1-page.png"
+caption = "Every widget an extension can draw"

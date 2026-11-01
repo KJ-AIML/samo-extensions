@@ -1,0 +1,25 @@
+# The store's own fields for Claude Sessions. Its id, name, version, summary, min_samo and "What it changes" come
+# from the package's extension.toml, so the store can't describe one thing and ship another.
+
+author = "KJ-AIML"
+categories = ["developer tools", "ai"]
+homepage = "https://github.com/KJ-AIML/samo/tree/main/extensions/claude-sessions"
+description = """
+See every Claude Code session on your Mac in one place: which ones are working, which one needs you, and which have finished.
+
+- A row per session, with how long it has been working or waiting
+- A pop-up when a session asks for permission or finishes a turn, with a badge in the menu bar
+- Today's tokens, counted from Claude Code's own transcripts, each message once
+- Your 5-hour and weekly plan limits, from Claude Code's status line
+
+Connecting adds Samo's hooks to ~/.claude/settings.json after backing it up once. Disconnecting, turning it off or uninstalling takes exactly them out. It never goes online.
+"""
+whats_new = "Now installed from Samo's store, and updated with one click."
+
+[[screenshots]]
+file = "1-page.png"
+caption = "Sessions, today's tokens and plan limits on one page"
+
+[[screenshots]]
+file = "2-menu-bar.png"
+caption = "Its line in the menu bar panel, with the 5-hour limit"
