@@ -1,0 +1,17 @@
+# The store's own fields for Shots. Its id, name, version, summary, min_samo, what it changes, and what it may do
+# (windows, Screen Recording, limits) come from the package's extension.toml.
+
+author = "KJ-AIML"
+categories = ["productivity", "screenshots"]
+homepage = "https://github.com/KJ-AIML/samo/tree/main/extensions/shots"
+description = """
+Screenshots from Samo's menu bar. Press ⇧⌘2, drag, and the shot is copied and saved before you let go of the mouse.
+
+- An area, a window (press Space) or the whole screen (⇧⌘1), frozen at the moment you pressed the shortcut
+- A magnifier and the size in pixels while you select
+- Pin a shot above every window and Space; drag it, resize it, fade it
+- Your recent shots in Samo, ready to copy, reveal or pin again
+
+Shots asks macOS for Screen Recording as its own app, so no other extension gains it. Nothing it captures leaves your Mac.
+"""
+whats_new = "First version: capture an area, a window or the screen, then copy, save or pin it."
