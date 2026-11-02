@@ -29,6 +29,7 @@ From the Samo repository, with this repository beside it:
 ```sh
 cargo run -p xtask -- ext-package extensions/claude-sessions
 cargo run -p xtask -- ext-package extensions/hello
+cargo run -p xtask -- ext-package extensions/shots
 # Optionally Samo itself: scripts/bundle-macos.sh, then
 #   ditto -c -k --keepParent target/Samo.app target/Samo-<version>-macos-arm64.zip
 cargo run -p xtask -- ext-publish --store ../samo-extensions [--samo target/Samo-<version>-macos-arm64.zip]
@@ -37,3 +38,9 @@ gh release upload store ../samo-extensions/dist/* -R KJ-AIML/samo-extensions --c
 
 `ext-publish` signs `catalog.json` with the key in KJ's Keychain (made once by `cargo run -p xtask --
 ext-keygen`), then reads `dist/` back and verifies everything exactly as Samo will.
+
+`ext-package` signs a helper that asks macOS for a permission (Shots: Screen Recording) with the "Talvyn Samo
+Extensions" identity in KJ's Keychain, made once by `cargo run -p xtask -- ext-codesign-setup`. macOS keeps a
+permission for "this identifier, signed by this certificate", so updates keep it; an ad-hoc build would be a new
+app every time. Keep a backup of the identity (Keychain Access → export as .p12): a new one makes every user allow
+Screen Recording once more.
