@@ -11,8 +11,8 @@ Everything you copy, one shortcut away. Press ⇧⌘C, type a few letters, and p
 - Search as you type, every word in any order; ⌘1–⌘9 for the first nine
 - Pastes into the app you were in (with Accessibility), or without formatting with ⌥Return
 - Never keeps what password managers mark as secret, or anything copied in 1Password, Bitwarden, Keychain Access or Passwords
-- Pause it, or skip the next copy, from its page in Samo
+- Pause it, skip the next copy, or change its shortcut (⇧⌘V, or any you like) from its page in Samo
 
 Clips asks macOS for Paste from Other Apps and Accessibility as its own app, so no other extension gains them. Your history stays on this Mac, and uninstalling deletes it.
 """
-whats_new = "First version: clipboard history at ⇧⌘C, with search, pins, and pasting where you were."
+whats_new = "Change the shortcut that opens the list from Clips' page: ⇧⌘V, or any you like. ⇧⌘C stays the default."
