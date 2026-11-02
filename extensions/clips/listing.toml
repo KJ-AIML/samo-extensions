@@ -1,0 +1,18 @@
+# The store's own fields for Clips. Its id, name, version, summary, min_samo, what it changes, and what it may do
+# (its window, what it watches, its permissions, limits) come from the package's extension.toml.
+
+author = "KJ-AIML"
+categories = ["productivity", "clipboard"]
+homepage = "https://github.com/KJ-AIML/samo/tree/main/extensions/clips"
+description = """
+Everything you copy, one shortcut away. Press ⇧⌘C, type a few letters, and press Return: it's pasted where you were.
+
+- Text, rich text, images and files, newest first, with pins on top
+- Search as you type, every word in any order; ⌘1–⌘9 for the first nine
+- Pastes into the app you were in (with Accessibility), or without formatting with ⌥Return
+- Never keeps what password managers mark as secret, or anything copied in 1Password, Bitwarden, Keychain Access or Passwords
+- Pause it, or skip the next copy, from its page in Samo
+
+Clips asks macOS for Paste from Other Apps and Accessibility as its own app, so no other extension gains them. Your history stays on this Mac, and uninstalling deletes it.
+"""
+whats_new = "First version: clipboard history at ⇧⌘C, with search, pins, and pasting where you were."
