@@ -8,6 +8,7 @@ description = """
 Screenshots from Samo's menu bar. Press ⇧⌘2, drag, and the shot is copied, saved and open in the editor.
 
 - An area, a window (press Space) or the whole screen (⇧⌘1), frozen at the moment you pressed the shortcut
+- Scrolling capture (press S): scroll a page yourself and Shots stitches it into one tall shot
 - A magnifier and the size in pixels while you select
 - An editor: arrows, lines, boxes, text, highlighter, pen, numbered steps, blur, pixelate, spotlight, crop and a backdrop, each a key away, with undo
 - Copy, save over the shot, or drag it straight into another app; closing with changes asks first
@@ -18,4 +19,4 @@ Screenshots from Samo's menu bar. Press ⇧⌘2, drag, and the shot is copied, s
 
 Shots asks macOS for Screen Recording as its own app, so no other extension gains it. Nothing it captures leaves your Mac.
 """
-whats_new = "Read and measure: after ⇧⌘2, T copies the text in an area (Thai included, read on your Mac), C copies a colour as hex, R measures in pixels and points; QR codes show on a card. In the editor: M measures, Tab copies a colour, ⇧⌘C copies the text."
+whats_new = "Scrolling capture: after ⇧⌘2 press S, choose the area, then scroll it yourself. Shots stitches one tall shot as you go, with a preview at the side, and keeps sticky headers once."
