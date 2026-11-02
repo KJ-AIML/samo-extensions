@@ -14,7 +14,7 @@ See every Claude Code session on your Mac in one place: which ones are working, 
 
 Connecting adds Samo's hooks to ~/.claude/settings.json after backing it up once. Disconnecting, turning it off or uninstalling takes exactly them out. It never goes online.
 """
-whats_new = "Now installed from Samo's store, and updated with one click."
+whats_new = "Your weekly limit stays on the page when Claude Code reports only the 5-hour one, and reset times say the day. Counting today's tokens takes about half the CPU."
 
 [[screenshots]]
 file = "1-page.png"

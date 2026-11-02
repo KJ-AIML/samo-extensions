@@ -2,7 +2,6 @@
 
 min_macos = "11.0"
 whats_new = """
-- The extension store: browse, install, update and uninstall extensions, every one signed
-- Settings → Updates: Samo updates itself with one click, and keeps the old app in the Trash
-- Opening Samo from the menu bar no longer freezes
+- Extensions are no longer stopped for CPU they didn't use: Samo measured them 5 to 16 times too high
+- One that really goes over its CPU or memory limit starts again by itself after a short rest
 """
