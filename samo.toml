@@ -2,6 +2,6 @@
 
 min_macos = "11.0"
 whats_new = """
-- Samo now runs on Windows too, with its extensions, the store and Clips
-- On the Mac it works as 0.4.1 did
+- Measuring a home folder with many coding projects finishes in minutes, not hours
+- The results are the same as before
 """
