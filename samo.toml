@@ -2,6 +2,6 @@
 
 min_macos = "11.0"
 whats_new = """
-- Extensions are no longer stopped for CPU they didn't use: Samo measured them 5 to 16 times too high
-- One that really goes over its CPU or memory limit starts again by itself after a short rest
+- Samo now runs on Windows too, with its extensions, the store and Clips
+- On the Mac it works as 0.4.1 did
 """
