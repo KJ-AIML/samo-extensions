@@ -10,11 +10,11 @@ See every Claude Code session on your Mac in one place: which ones are working, 
 - A row per session, with how long it has been working or waiting
 - A pop-up when a session asks for permission or finishes a turn, with a badge in the menu bar
 - Today's tokens, counted from Claude Code's own transcripts, each message once
-- Your 5-hour and weekly plan limits, from Claude Code's status line
+- Your 5-hour and weekly plan limits, from Claude Code's status line, or from Anthropic if you turn on Ask Anthropic for limits
 
-Connecting adds Samo's hooks to ~/.claude/settings.json after backing it up once. Disconnecting, turning it off or uninstalling takes exactly them out. It never goes online.
+Connecting adds Samo's hooks to ~/.claude/settings.json after backing it up once. Disconnecting, turning it off or uninstalling takes exactly them out. It goes online only while Ask Anthropic for limits is on: then every 5 minutes it asks Anthropic for your limits with Claude Code's sign-in, which it only reads, never renews or keeps.
 """
-whats_new = "Ready for Samo on Windows. On the Mac it works as 0.2.2 did."
+whats_new = "Near your weekly limit Anthropic sets no 5-hour limit, and the page now says so instead of \"not reported\"; the menu bar shows your weekly use then. New, off until you turn it on: Ask Anthropic for limits, so they stay current from Cursor, VS Code and claude -p too."
 
 [[screenshots]]
 file = "1-page.png"
